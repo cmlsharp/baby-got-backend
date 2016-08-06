@@ -1,0 +1,17 @@
+[package]
+name = "serve-backend"
+version = "0.1.0"
+authors = ["Chad Sharp <crossroads1112@gmail.com>"]
+
+[dependencies]
+iron = {version = "0.3", features = ["ssl"]}
+router = "0.1"
+rustc-serialize = "0.3"
+mongodb = "0.1"
+log = "0.3"
+env_logger = "0.3"
+jwt = "0.4"
+rust-crypto = "0.2"
+bson = "0.2"
+error-chain = "0.2"
+time = "0.1"
